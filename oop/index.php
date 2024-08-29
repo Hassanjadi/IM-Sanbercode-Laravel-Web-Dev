@@ -1,8 +1,8 @@
 <?php
 
-require("Animal.php");
-require("Ape.php");
-require("Frog.php");
+require_once("Animal.php");
+require_once("Ape.php");
+require_once("Frog.php");
 
 $sheep = new Animal("Shaun");
 
